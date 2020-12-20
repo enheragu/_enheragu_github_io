@@ -15,7 +15,7 @@
   </head>
   <body>
     <header>
-      <img src="./img/robot.png" alt="cool robot logo" height="160" align="left" />
+      <img src="./img/robot.png" alt="cool robot logo" height="150" align="left" />
       
       
       <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
@@ -28,7 +28,7 @@
         <a href="#" id="nav-education">Eduation</a>
         <a href="#" id="nav-work">Work Experience</a>
         <a href="#" id="nav-skills">Skills</a>
-        <a href="gallery.html">Gallery</a>
+        <a href="gallery.md">Gallery</a>
       </nav>
     </header>
 
