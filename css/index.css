@@ -90,7 +90,7 @@ section {
 
 
 nav {
-  width: 45%;
+  width: 55%;
   top: 0px;
   left: 0px;
   margin: auto;
@@ -98,6 +98,7 @@ nav {
   margin-bottom: 1%;
   font-size: 1.4vw;
   font-family: verdana;
+  text-align: center;
 }
 
 
@@ -142,13 +143,13 @@ nav a:last-child:after {
 }
 
 h1 {
-  display: block;
+  /* display: block; */
   font-size: 1.6vw;
   margin-top: 0.67em;
   margin-bottom: 0.67em;
-  margin-left: 15.5%;
   margin-right: 0;
   font-weight: bold;
+  text-align: left;
 }
 
 

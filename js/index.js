@@ -37,8 +37,8 @@ var cv_eeha = gitgraph
 branch_color = getColor();  
 var education = cv_eeha
   .branch({name: "Education", color: branch_color, commitDefaultOptions: {color: branch_color}})
-  .commit({tag: "Education", message: " " })
-  .commit({message: "Industrial Electronics and Automation Engineering Degree", detailId: "detail-electronicsdeg" })
+  .commit({tag: "Education", detailId: "detail-education", message: " " })
+  .commit({message: "Industrial Electronics and Automation Eng. Degree", detailId: "detail-electronicsdeg" })
   .merge(cv_eeha, {messageFont: message_merge}).delete();
 
 cv_eeha.checkout();
@@ -46,9 +46,9 @@ cv_eeha.checkout();
 branch_color = getColor();
 var work = cv_eeha
   .branch({name: "Work Experience", color: branch_color, commitDefaultOptions: {color: branch_color}})
-  .commit({tag: "Work Experience", message: " "})
-  .commit({message: "bq - Intership", detailId: "detail-bq" })
-  .commit({message: "GMV - Robotics Engineer [feb. 2017 - now]", detailId: "detail-gmv" })
+  .commit({tag: "Work Experience", detailId: "detail-work", message: " "})
+  .commit({message: "bq - Intership [Feb. 2016 - Aug. 2016]", detailId: "detail-bq" })
+  .commit({message: "GMV - Robotics Engineer [Feb. 2017 - Now]", detailId: "detail-gmv" })
 
 branch_color = getColor();  
 var projects = work
@@ -74,7 +74,7 @@ var skills = cv_eeha
   .merge(cv_eeha, {messageFont: message_merge}).delete();
 
 
-cv_eeha.commit("See you soon \\o/");
+cv_eeha.commit("Hope to hear from you soon!");
 
 
 // ----------------------- NAV ----------------------- //

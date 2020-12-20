@@ -11,18 +11,24 @@
     />
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link rel="stylesheet" type="text/css" href="./css/gitgraph.css" />
+    <link rel="stylesheet" type="text/css" href="./css/gallery.css" />
   </head>
   <body>
     <header>
       <img src="./img/robot.png" alt="cool robot logo" height="160" align="left" />
-    
-      <h1  style="text-align:left">Enrique Heredia Aguado</h1>
+      
+      
+      <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
+        <font color="#979797" style="font-weight:normal;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Robotics Engineer</font>
+      </h1>
+      
       <nav>
         <a href="#" id="nav-contact">Contact</a>
         <a href="#" id="nav-presentation">Presentation</a>
         <a href="#" id="nav-education">Eduation</a>
         <a href="#" id="nav-work">Work Experience</a>
         <a href="#" id="nav-skills">Skills</a>
+        <a href="gallery.html">Gallery</a>
       </nav>
     </header>
 
@@ -54,8 +60,20 @@
         </p>
       </div>
 
-      <div id="detail-electronicsdeg" class="gitgraph-detail">
+      <!-- Empty div to have nav links to these sections -->
+      <div id="detail-education" class="gitgraph-detail"></div>
+      <div id="detail-work" class="gitgraph-detail"></div>
+      
 
+
+      <div id="detail-electronicsdeg" class="gitgraph-detail">
+        <font size="+1" style="font-weight:bold;">Universidad Politécnica de Madrd - [2012-2017]</font>
+        <ul>
+          <li><strong>HackLab:</strong> blabla</li>
+          <li><strong>TFG:</strong> blabla</li>
+          <li><strong>Blabla:</strong> blabla</li>
+        </ul>
+        
       </div>
       
       <div id="detail-bq" class="gitgraph-detail">
