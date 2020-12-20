@@ -4,14 +4,13 @@ layout: default
 ---
 
 <section>
-<link rel="stylesheet" type="text/css" href="./css/gallery.css" />
-<script src="./js/gallery.js"></script>
+
 
 {% for gallery in site.data.galleries.galleryset %}
     <!-- For each gallery make rows of max 4 images -->
 
 
-    <h1>{{ gallery.description }}</h1>
+    <h2>{{ gallery.description }}</h2>
     {% assign img_count = 0 %}
 
     {% for image in gallery.images %}

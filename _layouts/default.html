@@ -4,25 +4,31 @@
     <head>
         <meta charset="UTF-8" />
         <title>{{ page.title }} | {{ site.title }}</title>
-        <link id="favicon" rel="shortcut icon" type="image/png" href={{ "/img/robot.png" | relative_url }} />
-        <link rel="stylesheet" type="text/css" href={{ "/css/index.css" | relative_url }} />
-        <link rel="stylesheet" type="text/css" href={{ "/css/gitgraph.css" | relative_url }} />
+        <link id="favicon" rel="shortcut icon" type="image/png" href={{ "/img/robot.png" | absolute_url }} />
+        <link rel="stylesheet" type="text/css" href={{ "/css/index.css" | absolute_url }} />
+        <link rel="stylesheet" type="text/css" href={{ "/css/gitgraph.css" | absolute_url }} />
+        <link rel="stylesheet" type="text/css" href= {{ "/css/gallery.css" | absolute_url }} />
     </head>
 
     <header>
-        <img src="./img/robot.png" alt="cool robot logo" height="150" align="left" />
+        <a href={{ "/index#top" | absolute_url }}>
+            <img src="./img/robot.png" alt="cool robot logo" height="130" align="left" />
+        </a>
 
-        <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
-            <font color="#979797" style="font-weight:normal;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Robotics Engineer</font>
-        </h1>
+        <a href={{ "/index#top" | absolute_url }}>
+            <h1 style="margin-left:15.5%;">
+                <font color="#0A0A0A" style="font-weight:bold;">Enrique Heredia Aguado</font>
+                <font color="#979797" style="font-weight:normal;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Robotics Engineer</font>
+            </h1>
+        </a>
 
         <nav>
-            <a href={{ "index#detail-contact" | relative_url }} id="nav-contact">Contact</a>
-            <a href={{ "index#detail-presentation" | relative_url }} id="nav-presentation">Presentation</a>
-            <a href={{ "index#detail-education" | relative_url }} id="nav-education">Eduation</a>
-            <a href={{ "index#detail-work" | relative_url }} id="nav-work">Work Experience</a>
-            <a href={{ "index#detail-skills" | relative_url }} id="nav-skills">Skills</a>
-            <a href={{ "gallery" | relative_url }} >Gallery</a>
+            <a href={{ "/index#detail-contact" | absolute_url }} id="nav-contact">Contact</a>
+            <a href={{ "/index#detail-presentation" | absolute_url }} id="nav-presentation">Presentation</a>
+            <a href={{ "/index#detail-education" | absolute_url }} id="nav-education">Eduation</a>
+            <a href={{ "/index#detail-work" | absolute_url }} id="nav-work">Work Experience</a>
+            <a href={{ "/index#detail-skills" | absolute_url }} id="nav-skills">Skills</a>
+            <a href={{ "/gallery#top" | absolute_url }} id="nav-gallery">Gallery</a>
         </nav>
     </header>
 
@@ -32,7 +38,8 @@
     <!-- Scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <script src={{ "/js/gitgraph.1.0.0.min.js" | relative_url }}></script>
-    <script src={{ "/js/index.js" | relative_url }}></script>
+    <script src={{ "/js/gitgraph.1.0.0.min.js" | absolute_url }}></script>
+    <script src={{ "/js/index.js" | absolute_url }}></script>
+    <script src={{ "/js/gallery.js" | absolute_url }} ></script>
 
 </html>

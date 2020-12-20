@@ -94,9 +94,9 @@ nav {
   top: 0px;
   left: 0px;
   margin: auto;
-  margin-top: 2em;
+  margin-top: 1em;
   margin-bottom: 0.5em;
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   font-family: verdana;
   text-align: center;
 }
@@ -111,7 +111,7 @@ nav a:last-child:after {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 100%) {
   nav {
     width: auto;
     margin: 0;
@@ -144,7 +144,7 @@ nav a:last-child:after {
 
 h1 {
   /* display: block; */
-  font-size: 1.4vw;
+  font-size: 1.3vw;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   margin-right: 0;

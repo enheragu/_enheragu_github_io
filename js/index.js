@@ -14,8 +14,8 @@ var gitgraph = new GitGraph({
   author: "",
 });
 
-gitgraph.template.commit.message.font = "bold xx-large Calibri";
-gitgraph.template.commit.tag.font = "bold xx-large Calibri";
+gitgraph.template.commit.message.font = "bold x-large Calibri";
+gitgraph.template.commit.tag.font = "bold x-large Calibri";
 var message_merge = "italic x-large Calibri";
 gitgraph.template.commit.message.displayBranch = false;
 gitgraph.template.commit.message.displayHash = false;
@@ -83,15 +83,15 @@ $(function() {
   var head = $("header");
 
   // Links
-  $("nav a").click(function(event) {
-    event.preventDefault();
-    var margintop = parseInt($("section").css("marginTop"), 10) - 170;
-    var position =
-      $("#detail-" + event.target.id.split("-")[1]).position().top -
-      margintop -
-      30;
-    $("html, body").animate({ scrollTop: position });
-  });
+  // $("nav a").click(function(event) {
+  //   event.preventDefault();
+  //   var margintop = parseInt($("section").css("marginTop"), 10) - 170;
+  //   var position =
+  //     $("#detail-" + event.target.id.split("-")[1]).position().top -
+  //     margintop -
+  //     30;
+  //   $("html, body").animate({ scrollTop: position });
+  // });
 
   // Header hide/show on scroll
   win.onscroll(function(event) {
