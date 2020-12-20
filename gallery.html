@@ -1,6 +1,7 @@
 
 <!DOCTYPE html>
-<html lang="en">  <head>
+<html lang="en">  
+<head>
     <meta charset="UTF-8" />
     <title>Enrique Heredia Aguado</title>
     <link
@@ -12,26 +13,28 @@
     <link rel="stylesheet" type="text/css" href="./css/index.css" />
     <link rel="stylesheet" type="text/css" href="./css/gitgraph.css" />
     <link rel="stylesheet" type="text/css" href="./css/gallery.css" />
-  </head>
-  <body>
+</head>
+
+
+
+<body>
     <header>
-      <img src="./img/robot.png" alt="cool robot logo" height="160" align="left" />
-      
-      
-      <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
+        <img src="./img/robot.png" alt="cool robot logo" height="160" align="left" />
+        
+        
+        <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
         <font color="#979797" style="font-weight:normal;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Robotics Engineer</font>
-      </h1>
-      
-      <nav>
+        </h1>
+        
+        <nav>
         <a href="index.html" id="nav-contact">Contact</a>
         <a href="index.html" id="nav-presentation">Presentation</a>
         <a href="index.html" id="nav-education">Eduation</a>
         <a href="index.html" id="nav-work">Work Experience</a>
         <a href="index.html" id="nav-skills">Skills</a>
         <a href="gallery.html">Gallery</a>
-      </nav>
+        </nav>
     </header>
-<body>
     <include src="./header.html"></include>
     <section>
         <!-- The grid: four columns -->
@@ -55,18 +58,6 @@
             </div>
         </div>
         
-        <!-- The expanding image container -->
-        <div class="container">
-            <!-- Close the image -->
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        
-            <!-- Expanded image -->
-            <img id="expandedImg" style="width:100%">
-        
-            <!-- Image text -->
-            <div id="imgtext"></div>
-        </div>
-
         <h1>GOTCHA Field tests</h1>
         <div class="row">
             <div class="column">
@@ -86,21 +77,22 @@
                 onclick="myFunction(this,'./img_gallery/gotcha_final_test.png');">
             </div>
         </div>
-        
-        <!-- The expanding image container -->
-        <div class="container">
-            <!-- Close the image -->
-            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-        
-            <!-- Expanded image -->
-            <img id="expandedImg" style="width:100%">
-        
-            <!-- Image text -->
-            <div id="imgtext"></div>
-        </div>
 
     </section>
-    
+
+    <!-- The expanding image container -->
+    <div id="imageviewr" class="container" onclick="fade(this)">
+        <!-- Close the image -->
+        <span class="closebtn">&times;</span>
+
+        <!-- Expanded image -->
+        <img id="expandedImg" class="container-content">
+
+        <!-- Image text -->
+        <div id="imgtext"></div>
+    </div>
+
+
     <!-- Scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
