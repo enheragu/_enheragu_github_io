@@ -43,7 +43,7 @@
     z-index: 100; /* Sit on top */
 
     /* Location of the box */
-    padding-top: 5%;
+    /* padding-top: 5%; */
 
     left: 0;
     top: 0;
@@ -58,13 +58,16 @@
   .container-content {
     margin: auto;
     display: block;
-    width: 100%;
     max-width: 1000px;
+    max-height: 75%;
+    padding: 5%;
+    padding-bottom: 1%;
+    vertical-align: middle;
   }
 
 
   /* Add Animation - Zoom in the Modal */
-  .container-content, #caption {
+  .container-content, #imgtext {
     animation-name: zoom;
     animation-duration: 0.6s;
   }
@@ -76,13 +79,11 @@
 
   /* Expanding image text */
   #imgtext {
-    position: absolute;
-    bottom: 15%;
-    left: 25%;
+    position: relative;
+    text-align: center;
+    margin: auto;
     color: #F1C109;
     font-size: 20px;
-
-    margin: auto;
     display: block;
   }
  

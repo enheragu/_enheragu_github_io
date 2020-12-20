@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <title>{{ page.title }} | {{ site.title }}</title>
+        <link id="favicon" rel="shortcut icon" type="image/png" href={{ "/img/robot.png" | relative_url }} />
+        <link rel="stylesheet" type="text/css" href={{ "/css/index.css" | relative_url }} />
+        <link rel="stylesheet" type="text/css" href={{ "/css/gitgraph.css" | relative_url }} />
+    </head>
+
+    <header>
+        <img src="./img/robot.png" alt="cool robot logo" height="150" align="left" />
+
+        <h1 style="margin-left:15.5%;"><strong>Enrique Heredia Aguado</strong>
+            <font color="#979797" style="font-weight:normal;">&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Robotics Engineer</font>
+        </h1>
+
+        <nav>
+            <a href={{ "index.html#detail-contact" | relative_url }} id="nav-contact">Contact</a>
+            <a href={{ "index.html#detail-presentation" | relative_url }} id="nav-presentation">Presentation</a>
+            <a href={{ "index.html#detail-education" | relative_url }} id="nav-education">Eduation</a>
+            <a href={{ "index.html#detail-work" | relative_url }} id="nav-work">Work Experience</a>
+            <a href={{ "index.html#detail-skills" | relative_url }} id="nav-skills">Skills</a>
+            <a href={{ "gallery.html" | relative_url }} >Gallery</a>
+        </nav>
+    </header>
+
+    <body>
+        {{ content }}
+    </body>
+    <!-- Scripts -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <script src={{ "/js/gitgraph.1.0.0.min.js" | relative_url }}></script>
+    <script src={{ "/js/index.js" | relative_url }}></script>
+
+</html>
