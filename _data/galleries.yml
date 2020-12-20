@@ -4,27 +4,61 @@ imagefolder: ./img_gallery
 thumnaifolder: ./img_gallery/Thumbnails
 
 galleryset:
-- id: gotcha_gallery
-  description: GOTCHA Field Tests
-  images:
-  - name: gotcha_final_test.png
-    text: Part of GOTCHA team in Colmenar Field Tests (taken by RAT Rover from ESA).
-  - name: gotcha_final_test.png
-    text: Part of GOTCHA team in Colmenar Field Tests (taken by RAT Rover from ESA).
-  - name: gotcha_final_test.png
-    text: Part of GOTCHA team in Colmenar Field Tests (taken by RAT Rover from ESA).
-  - name: gotcha_final_test.png
-    text: Part of GOTCHA team in Colmenar Field Tests (taken by RAT Rover from ESA).
+
+- id: ade_gallery
+  description: ADE Field Tests
+  images:  
+  - name: 07_2020_ade_bremen_00.jpg
+    text: Image from [07/2020].
+  - name: 07_2020_ade_bremen_01.jpg
+    text: Image from [07/2020].
+  - name: 07_2020_ade_gmv_00.jpg
+    text: Image from [07/2020].
+  - name: 10_2020_ade_bremen_00.jpg
+    text: Image from [10/2020].
+  - name: 10_2020_ade_bremen_01.jpg
+    text: Image from [10/2020].
+  - name: 10_2020_ade_bremen_02.jpg
+    text: Image from [10/2020].
+
 
 - id: ergo_gallery
   description: ERGO Field Tests
   images:
+  - name: 08_2020_ergo_gmv_00.jpg
+    text: Image from [08/2020].
+  - name: 08_2018_ergo_bremen_00.JPG
+    text: Image from [08/2018].
+  - name: 08_2018_ergo_bremen_01.JPG
+    text: Image from [08/2018].
+  - name: 08_2018_ergo_bremen_02.JPG
+    text: Image from [08/2018].
+  - name: 11_2018_ergo_xaluka_00.JPG
+    text: Image from [11/2018].
+  - name: 11_2018_ergo_xaluka_02.jpg
+    text: Image from [11/2018].
+  - name: 11_2018_ergo_xaluka_03.jpg
+    text: Image from [11/2018].
+  - name: 12_2018_ergo_garam_00.jpg
+    text: Image from [12/2018].
+  - name: 12_2018_ergo_garam_01.jpg
+    text: Image from [12/2018].
+  - name: 12_2018_ergo_garam_02.jpg
+    text: Image from [12/2018].
+  - name: 12_2018_ergo_garam_03.jpg
+    text: Image from [12/2018].
+  - name: 12_2018_ergo_garam_04.jpg
+    text: Image from [12/2018].
+  - name: 12_2018_ergo_garam_05.jpg
+    text: Image from [12/2018].
   - name: ergo_final_test_shotD2018_346_12_01_23X8_02Y7_99H0_20.png
     text: Part of ERGO team in Morocco (Gara Medouar) Field Tests (taken by SherpaTT Robot from DFKI).
-  - name: ergo_final_test_shotD2018_346_12_01_23X8_02Y7_99H0_20.png
-    text: Part of ERGO team in Morocco (Gara Medouar) Field Tests (taken by SherpaTT Robot from DFKI).
-  - name: ergo_final_test_shotD2018_346_12_01_23X8_02Y7_99H0_20.png
-    text: Part of ERGO team in Morocco (Gara Medouar) Field Tests (taken by SherpaTT Robot from DFKI).
-  - name: ergo_final_test_shotD2018_346_12_01_23X8_02Y7_99H0_20.png
-    text: Part of ERGO team in Morocco (Gara Medouar) Field Tests (taken by SherpaTT Robot from DFKI).
+
+
+- id: gotcha_gallery
+  description: GOTCHA Field Tests
+  images:
+  - name: gotcha_final_test.png
+    text: Part of GOTCHA team in Colmenar Field Tests (taken by RAT Rover from ESA) [05/2018].
+
 
