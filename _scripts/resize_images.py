@@ -24,15 +24,15 @@ for file in os.listdir(img_source_path):
     if not file.upper().endswith(".PNG") and not file.upper().endswith(".JPG"):
         print("ERROR: Unknown extension for " + file)
         continue
-    print("Process image " + file)
+    #print("Process image " + file)
 
     image = Image.open(img_source_path+file)
     
-    print("Save " + expanded_output_path+file)
+    #print("Save " + expanded_output_path+file)
     image.thumbnail((1000, 20000)) # max width , max heigth
     image.save(expanded_output_path+file)
 
-    print("Save " + thumbnail_output_path+file)
+    #print("Save " + thumbnail_output_path+file)
     image.thumbnail((100, 20000)) # max width , max heigth
     image.save(thumbnail_output_path+file)
 

@@ -1,4 +1,4 @@
-function myFunction(imgs, src_big) 
+function myFunction(imgs, src_big, author, camera, date) 
 {
   var container = document.getElementById("imageviewr");
   // Get the expanded image
@@ -8,8 +8,7 @@ function myFunction(imgs, src_big)
   // Use the same src in the expanded image as the image being clicked on from the grid
   expandImg.src = src_big;//imgs.src;
   // Use the value of the alt attribute of the clickable image as text inside the expanded image
-  imgText.innerHTML = imgs.alt;
-
+  imgText.innerHTML = imgs.alt + " <br><small><small><i>(" + author + " - " +camera + ")</i> " + date + "</small></small>";
 
   // Show the container element (hidden with CSS)
   expandImg.parentElement.style.display = "block";

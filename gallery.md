@@ -19,7 +19,8 @@ custom_js: /js/gallery.js
         {% endif %}
         <div class="column">
             <img src="{{ site.data.galleries.thumnaifolder }}/{{ image.name }}" alt="{{ image.text }}" 
-            onclick="myFunction(this,'{{ site.data.galleries.imagefolder }}/{{ image.name }}');">
+            onclick="myFunction(this,'{{ site.data.galleries.imagefolder }}/{{ image.name }}', 
+            '{{ image.author }}', '{{ image.camera }}', '{{ image.date }}');">
         </div>
         {% if img_count_int == 3 %}
             {% assign img_count_int = 0 %}
