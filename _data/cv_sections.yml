@@ -1,0 +1,15 @@
+
+content_path: _cv_sections
+
+items:
+- id: detail-contact
+- id: detail-presentation
+- id: detail-education
+- id: detail-work
+- id: detail-electronicsdeg
+- id: detail-bq
+- id: detail-gmv
+- id: detail-projects
+- id: detail-publications
+- id: detail-courses
+- id: detail-skills

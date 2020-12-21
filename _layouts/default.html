@@ -6,8 +6,9 @@
         <title>{{ page.title }} | {{ site.title }}</title>
         <link id="favicon" rel="shortcut icon" type="image/png" href={{ "/img/robot.png" | absolute_url }} />
         <link rel="stylesheet" type="text/css" href={{ "/css/index.css" | absolute_url }} />
-        <link rel="stylesheet" type="text/css" href={{ "/css/gitgraph.css" | absolute_url }} />
-        <link rel="stylesheet" type="text/css" href= {{ "/css/gallery.css" | absolute_url }} />
+        {% for stylesheet in page.custom_css %}
+        <link rel="stylesheet" type="text/css" href={{ stylesheet | absolute_url }} />
+        {% endfor %}
     </head>
 
     <header>
@@ -28,7 +29,8 @@
             <a href={{ "/index#detail-education" | absolute_url }} id="nav-education">Eduation</a>
             <a href={{ "/index#detail-work" | absolute_url }} id="nav-work">Work Experience</a>
             <a href={{ "/index#detail-skills" | absolute_url }} id="nav-skills">Skills</a>
-            <a href={{ "/gallery#top" | absolute_url }} id="nav-gallery">Gallery</a>
+            <a href={{ "/projects#top" | absolute_url }}>Projects</a>
+            <a href={{ "/gallery#top" | absolute_url }}>Gallery</a>
         </nav>
     </header>
 
@@ -38,8 +40,8 @@
     <!-- Scripts -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
-    <script src={{ "/js/gitgraph.1.0.0.min.js" | absolute_url }}></script>
-    <script src={{ "/js/index.js" | absolute_url }}></script>
-    <script src={{ "/js/gallery.js" | absolute_url }} ></script>
+    {% for jsfile in page.custom_js %}
+    <script src={{ jsfile | absolute_url }} ></script>
+    {% endfor %}
 
 </html>

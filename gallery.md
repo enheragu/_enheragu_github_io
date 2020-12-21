@@ -1,10 +1,9 @@
 ---
 title: Gallery
 layout: default
+custom_css: /css/gallery.css
+custom_js: /js/gallery.js
 ---
-
-
-
 
 <section>
 <!-- For each gallery make rows of max 4 images -->
