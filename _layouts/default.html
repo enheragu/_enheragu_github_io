@@ -4,7 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <title>{{ page.title }} | {{ site.title }}</title>
-        <link id="favicon" rel="shortcut icon" type="image/png" href={{ "/img/robot.png" | absolute_url }} />
+        <link id="favicon" rel="shortcut icon" type="image/svg" href={{ "/img/robot.svg" | absolute_url }} />
         <link rel="stylesheet" type="text/css" href={{ "/css/index.css" | absolute_url }} />
         {% for stylesheet in page.custom_css %}
         <link rel="stylesheet" type="text/css" href={{ stylesheet | absolute_url }} />
@@ -13,7 +13,7 @@
 
     <header>
         <a href={{ "/index#top" | absolute_url }}>
-            <img src="./img/robot.png" alt="cool robot logo" height="130" align="left" />
+            <img src="./img/robot.svg" alt="cool robot logo" height="130" align="left" />
         </a>
 
         <a href={{ "/index#top" | absolute_url }}>
@@ -24,11 +24,8 @@
         </a>
 
         <nav>
-            <a href={{ "/index#detail-contact" | absolute_url }} id="nav-contact">Contact</a>
-            <a href={{ "/index#detail-presentation" | absolute_url }} id="nav-presentation">Presentation</a>
-            <a href={{ "/index#detail-education" | absolute_url }} id="nav-education">Eduation</a>
-            <a href={{ "/index#detail-work" | absolute_url }} id="nav-work">Work Experience</a>
-            <a href={{ "/index#detail-skills" | absolute_url }} id="nav-skills">Skills</a>
+            <a href={{ "/index#top" | absolute_url }}>CV</a>
+            <a href={{ "/about#top" | absolute_url }}>About</a>
             <a href={{ "/projects#top" | absolute_url }}>Projects</a>
             <a href={{ "/gallery#top" | absolute_url }}>Gallery</a>
         </nav>

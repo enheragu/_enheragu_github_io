@@ -2,7 +2,7 @@
 // /!\ Must be in last for window.onresize() event /!\
  
 // Use red 
-var colors = [ "#F1C109", "#FF220C"];
+var colors = [ "#F1C109", "#FF1E1E"];
 
 
 var gitgraph = new GitGraph({
@@ -25,14 +25,14 @@ var work = gitgraph
 
 
 branch_color = colors[1];
-var cv_eeha = work
+var projects = work
     .branch({name: "Projects", color: branch_color, commitDefaultOptions: {color: branch_color}})
-    .commit({message: "MOSAR", detailId: "detail-MOSAR" })
-    .commit({message: "PROACT", detailId: "detail-PROACT" })
-    .commit({message: "ADE", detailId: "detail-ADE" })
-    .commit({message: "ERGO", detailId: "detail-ERGO" })
-    .commit({message: "GOTCHA", detailId: "detail-GOTCHA" })
-    .commit({message: "RHA", detailId: "detail-RHA" })
+    .commit({message: "[Mar. 2018 to Ongoing] MOSAR", detailId: "detail-MOSAR" })
+    .commit({message: "[Jan. 2018 to Ongoing] PROACT", detailId: "detail-PROACT" })
+    .commit({message: "[Feb. 2019 to Ongoing] ADE", detailId: "detail-ADE" })
+    .commit({message: "[Jan. 2018 to Feb. 2019] ERGO", detailId: "detail-ERGO" })
+    .commit({message: "[Feb. 2017 to May. 2018] GOTCHA", detailId: "detail-GOTCHA" })
+    .commit({message: "[Nov. 2016 to Feb. 2018] RHA", detailId: "detail-RHA" })
     .commit({message: "HIDALGO", detailId: "detail-HIDALGO" })
     .commit({message: "Other", detailId: "detail-Other" })
     .merge(work, {messageFont: message_merge}).delete();

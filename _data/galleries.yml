@@ -6,7 +6,7 @@ thumnaifolder: ./img_gallery/Thumbnails
 galleryset:
 
 - id: ade_gallery
-  description: ADE Field Tests
+  description: Field Test Campaigns
   images:  
   - name: 07_2020_ade_bremen_00.jpg
     text: DFKI outside installations for testing.
@@ -37,7 +37,7 @@ galleryset:
     author: Enrique Heredia
     camera: Phone
     date: "[10/2020]"
-    
+
   - name: 10_2020_ade_bremen_02.jpg
     text: Image from.
     author: Enrique Heredia
@@ -46,10 +46,10 @@ galleryset:
 
 
 - id: ergo_gallery
-  description: ERGO Field Tests
+  description: ERGO Field Test Campaigns
   images:
   - name: 08_2020_ergo_gmv_00.jpg
-    text: ERGO Orbital Case setup in GMVs platform-art laboratory.
+    text: ERGO Orbital Case setup in GMV's platform-art laboratory.
     author: Enrique Heredia
     camera: Phone
     date: "[08/2020]"
@@ -73,13 +73,13 @@ galleryset:
     date: "[08/2018]"
 
   - name: 11_2018_ergo_xaluka_00.JPG
-    text: Starry night, Xaluka Hotel from roof.
+    text: Starry night, Xaluka Hotel's roof.
     author: Enrique Heredia
     camera: NikonD3100
     date: "[11/2018]"
 
   - name: 11_2018_ergo_xaluka_01.jpg
-    text: Starry night, Xaluka Hotel from roof.
+    text: Starry night, Xaluka Hotel's roof.
     author: Enrique Heredia
     camera: NikonD3100
     date: "[11/2018]"
@@ -95,7 +95,7 @@ galleryset:
   #   date: "[11/2018]"
 
   - name: 12_2018_ergo_garam_00.jpg
-    text: Image from.
+    text: Camp in the desert.
     author: " "
     camera: Phone
     date: "[12/2018]"
@@ -104,7 +104,7 @@ galleryset:
   #   text: Image from.
   #   date: "[12/2018]"
   - name: 12_2018_ergo_garam_02.jpg
-    text: Image from.
+    text: SherpaTT Robot in the camp site.
     author: " "
     camera: Phone
     date: "[12/2018]"
@@ -116,7 +116,7 @@ galleryset:
     date: "[12/2018]"
 
   - name: 12_2018_ergo_garam_04.jpg
-    text: Image from.
+    text: SherpaTT Robot with Gara Medouar in the background.
     author: " "
     camera: Phone
     date: "[12/2018]"
@@ -135,7 +135,7 @@ galleryset:
 
 
 - id: gotcha_gallery
-  description: GOTCHA Field Tests
+  description: GOTCHA Field Test Campaigns
   images:
   - name: gotcha_final_test.png
     text: Part of GOTCHA team in Colmenar Field Tests.

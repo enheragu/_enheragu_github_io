@@ -3,9 +3,9 @@
  
 // branches colors repeated to avoid overflow issues when incrementing
 // no more grey to be left as parent
-var colors = [ "#979797", "#008FB5", "#F1C109", "#FF220C", 
-               "#979797", "#008FB5", "#F1C109", "#FF220C", 
-               "#979797", "#008FB5", "#F1C109", "#FF220C" ];
+var colors = [ "#979797", "#008FB5", "#F1C109", "#FF1E1E", "#5CC47B", 
+               "#979797", "#008FB5", "#F1C109", "#FF1E1E", "#5CC47B", 
+               "#979797", "#008FB5", "#F1C109", "#FF1E1E", "#5CC47B" ];
 
 var current_color = 0;
 
