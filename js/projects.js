@@ -27,9 +27,10 @@ var work = gitgraph
 branch_color = colors[1];
 var projects = work
     .branch({name: "Projects", color: branch_color, commitDefaultOptions: {color: branch_color}})
-    .commit({message: "[Mar. 2018 to Ongoing] MOSAR", detailId: "detail-MOSAR" })
-    .commit({message: "[Jan. 2018 to Ongoing] PROACT", detailId: "detail-PROACT" })
-    .commit({message: "[Feb. 2019 to Ongoing] ADE", detailId: "detail-ADE" })
+    .commit({message: "[Jan. 2021 still Ongoing] PERIOD", detailId: "detail-PERIOD" })
+    .commit({message: "[Mar. 2018 still Ongoing] MOSAR", detailId: "detail-MOSAR" })
+    .commit({message: "[Jan. 2018 to May. 2021] PROACT", detailId: "detail-PROACT" })
+    .commit({message: "[Feb. 2019 to May. 2021] ADE", detailId: "detail-ADE" })
     .commit({message: "[Jan. 2018 to Feb. 2019] ERGO", detailId: "detail-ERGO" })
     .commit({message: "[Feb. 2017 to May. 2018] GOTCHA", detailId: "detail-GOTCHA" })
     .commit({message: "[Nov. 2016 to Feb. 2018] RHA", detailId: "detail-RHA" })
