@@ -47,7 +47,7 @@ branch_color = getColor();
 var work = cv_eeha
   .branch({name: "Work Experience", color: branch_color, commitDefaultOptions: {color: branch_color}})
   .commit({tag: "Work Experience", detailId: "detail-work", message: " "})
-  .commit({message: "bq - Intership [Feb. 2016 - Aug. 2016]", detailId: "detail-bq" })
+  .commit({message: "bq - Internship [Feb. 2016 - Aug. 2016]", detailId: "detail-bq" })
   .commit({message: "GMV - Robotics Engineer [Feb. 2017 - Now]", detailId: "detail-gmv" })
 
 branch_color = getColor();  
